@@ -1,0 +1,12 @@
+---
+version: 0.2
+phases:
+  build:
+    commands:
+      - env
+      - ls -l 
+      - cat /testfolder/testfile.txt
+
+  post_build:
+    commands:
+      - echo 'Bye !'
