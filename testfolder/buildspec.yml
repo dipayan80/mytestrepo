@@ -5,7 +5,7 @@ phases:
     commands:
       - env
       - ls -l 
-      - cat /testfolder/testfile.txt
+      - cat testfolder/testfile.txt
 
   post_build:
     commands:
