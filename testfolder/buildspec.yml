@@ -6,6 +6,8 @@ phases:
       - env
       - ls -l 
       - cat testfolder/testfile.txt
+      - echo $CODEBUILD_WEBHOOK_EVENT
+
 
   post_build:
     commands:
